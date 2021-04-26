@@ -7,6 +7,8 @@
 <body>
 <header>
 	<div class="container">
-Miguel
-</div>
+<?php if(has_nav_menu('header')) : ?>	
+<?php wp_nav_menu(array('theme_location'  => 'header',) ); ?>
+<?php endif; ?>
+    </div>
 </header>
