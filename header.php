@@ -5,4 +5,8 @@
 	<?php wp_head() ?>
 </head>
 <body>
-<header>Miguel</header>
+<header>
+	<div class="container">
+Miguel
+</div>
+</header>

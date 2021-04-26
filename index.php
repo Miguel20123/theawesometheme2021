@@ -11,6 +11,7 @@
 	<?php endif; ?>
 -->
 
+<div class="container">
 <!-- The wordpress loop -->
 	<?php if(have_posts()) : while(have_posts()) : the_post() ?>
 
@@ -23,7 +24,8 @@
 	    </div>
 	    
 	<?php endwhile; endif; ?>
-
+	
+</div>
 </main>
 
 <?php get_footer() ?>
